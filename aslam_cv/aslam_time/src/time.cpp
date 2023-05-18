@@ -81,7 +81,7 @@ const Time TIME_MIN(0, 1);
  */
 void aslam_walltime(uint32_t& sec, uint32_t& nsec)
 #ifndef WIN32    
-                        throw (NoHighPerformanceTimersException)
+//                        throw (NoHighPerformanceTimersException)
 #endif
 {
 #ifndef WIN32
